@@ -3002,7 +3002,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/phishing-controller@npm:^12.4.0":
+"@metamask/phishing-controller@npm:^12.4.0, @metamask/phishing-controller@npm:^12.4.1":
   version: 12.4.1
   resolution: "@metamask/phishing-controller@npm:12.4.1"
   dependencies:
@@ -3204,23 +3204,23 @@ __metadata:
   linkType: hard
 
 "@metamask/snaps-controllers@npm:^11.0.0":
-  version: 11.0.0
-  resolution: "@metamask/snaps-controllers@npm:11.0.0"
+  version: 11.1.0
+  resolution: "@metamask/snaps-controllers@npm:11.1.0"
   dependencies:
     "@metamask/approval-controller": ^7.1.3
     "@metamask/base-controller": ^8.0.0
     "@metamask/json-rpc-engine": ^10.0.2
     "@metamask/json-rpc-middleware-stream": ^8.0.7
-    "@metamask/key-tree": ^10.1.0
+    "@metamask/key-tree": ^10.1.1
     "@metamask/object-multiplex": ^2.1.0
     "@metamask/permission-controller": ^11.0.6
-    "@metamask/phishing-controller": ^12.4.0
+    "@metamask/phishing-controller": ^12.4.1
     "@metamask/post-message-stream": ^9.0.0
     "@metamask/rpc-errors": ^7.0.2
     "@metamask/snaps-registry": ^3.2.3
     "@metamask/snaps-rpc-methods": ^12.0.0
-    "@metamask/snaps-sdk": ^6.19.0
-    "@metamask/snaps-utils": ^9.0.1
+    "@metamask/snaps-sdk": ^6.20.0
+    "@metamask/snaps-utils": ^9.1.0
     "@metamask/utils": ^11.2.0
     "@xstate/fsm": ^2.0.0
     async-mutex: ^0.5.0
@@ -3230,7 +3230,7 @@ __metadata:
     get-npm-tarball-url: ^2.0.3
     immer: ^9.0.6
     luxon: ^3.5.0
-    nanoid: ^3.1.31
+    nanoid: ^3.3.10
     readable-stream: ^3.6.2
     readable-web-to-node-stream: ^3.0.2
     semver: ^7.5.4
@@ -3240,7 +3240,7 @@ __metadata:
   peerDependenciesMeta:
     "@metamask/snaps-execution-environments":
       optional: true
-  checksum: ca3c9fddfaeef0605d844c8ba959e687f21d13ef5ce4a65685a54a5a0414e1a9b521a60a88152fbdf2292f64b040299a464901164481f168975d1e1e8b83fcd0
+  checksum: 2f1ad72ee02fcdeb061e22c02da6e9bada7bb60c4f7126056bb5357a0afc207239a1ff91404b77aacb0d0e6e9e80a7594a02a97bcb8fcb96edfb0559c612138a
   languageName: node
   linkType: hard
 
@@ -3312,7 +3312,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/snaps-sdk@npm:^6.14.0, @metamask/snaps-sdk@npm:^6.15.0, @metamask/snaps-sdk@npm:^6.17.0, @metamask/snaps-sdk@npm:^6.18.0, @metamask/snaps-sdk@npm:^6.19.0":
+"@metamask/snaps-sdk@npm:^6.14.0, @metamask/snaps-sdk@npm:^6.15.0, @metamask/snaps-sdk@npm:^6.17.0, @metamask/snaps-sdk@npm:^6.18.0, @metamask/snaps-sdk@npm:^6.19.0, @metamask/snaps-sdk@npm:^6.20.0":
   version: 6.20.0
   resolution: "@metamask/snaps-sdk@npm:6.20.0"
   dependencies:
@@ -3411,6 +3411,37 @@ __metadata:
     ses: ^1.1.0
     validate-npm-package-name: ^5.0.0
   checksum: d621df39d24b042a814b54872501b215d6ab2a7a53820f21dce38cae112f82b11dd13d69cfca0087682c73fb4da7c61928d1e2895b859a1dcc0e43f27a3ab4d1
+  languageName: node
+  linkType: hard
+
+"@metamask/snaps-utils@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "@metamask/snaps-utils@npm:9.1.0"
+  dependencies:
+    "@babel/core": ^7.23.2
+    "@babel/types": ^7.23.0
+    "@metamask/base-controller": ^8.0.0
+    "@metamask/key-tree": ^10.1.1
+    "@metamask/permission-controller": ^11.0.6
+    "@metamask/rpc-errors": ^7.0.2
+    "@metamask/slip44": ^4.1.0
+    "@metamask/snaps-registry": ^3.2.3
+    "@metamask/snaps-sdk": ^6.20.0
+    "@metamask/superstruct": ^3.1.0
+    "@metamask/utils": ^11.2.0
+    "@noble/hashes": ^1.7.1
+    "@scure/base": ^1.1.1
+    chalk: ^4.1.2
+    cron-parser: ^4.5.0
+    fast-deep-equal: ^3.1.3
+    fast-json-stable-stringify: ^2.1.0
+    fast-xml-parser: ^4.4.1
+    marked: ^12.0.1
+    rfdc: ^1.3.0
+    semver: ^7.5.4
+    ses: ^1.1.0
+    validate-npm-package-name: ^5.0.0
+  checksum: 9c8282f4b73ef631cd3f1297d460d4c1e9fca5df4a089762b89386def95c7b53daa8a3d6703bccf04136b599e9114c95c6009bec9f1f23c7f6ca1a9ed3da3841
   languageName: node
   linkType: hard
 
@@ -14622,6 +14653,15 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: d36c427e530713e4ac6567d488b489a36582ef89da1d6d4e3b87eded11eb10d7042a877958c6f104929809b2ab0bafa17652b076cdf84324aa75b30b722204f2
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^3.3.10":
+  version: 3.3.11
+  resolution: "nanoid@npm:3.3.11"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 3be20d8866a57a6b6d218e82549711c8352ed969f9ab3c45379da28f405363ad4c9aeb0b39e9abc101a529ca65a72ff9502b00bf74a912c4b64a9d62dfd26c29
   languageName: node
   linkType: hard
 
