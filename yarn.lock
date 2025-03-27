@@ -2927,20 +2927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/key-tree@npm:^10.0.2, @metamask/key-tree@npm:^10.1.0":
-  version: 10.1.0
-  resolution: "@metamask/key-tree@npm:10.1.0"
-  dependencies:
-    "@metamask/scure-bip39": ^2.1.1
-    "@metamask/utils": ^11.0.1
-    "@noble/curves": ^1.8.1
-    "@noble/hashes": ^1.3.2
-    "@scure/base": ^1.0.0
-  checksum: 050e5cd440f37daae11af855908e29be494c694242e255ff50c958d6159440304d78d575d041c3f279ebfe983a1874b812c131ed574e1b93eb2c911ef11eb08d
-  languageName: node
-  linkType: hard
-
-"@metamask/key-tree@npm:^10.1.1":
+"@metamask/key-tree@npm:^10.0.2, @metamask/key-tree@npm:^10.1.0, @metamask/key-tree@npm:^10.1.1":
   version: 10.1.1
   resolution: "@metamask/key-tree@npm:10.1.1"
   dependencies:
